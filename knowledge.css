@@ -1,0 +1,388 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html, body {
+      height: 100%;
+      width: 100%;
+}
+
+.main {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      overflow-x: hidden;
+}
+
+
+#page1 {
+      height: 100%;
+      width: 100%;
+}
+
+#nav {
+      width: 100vw;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+#nav1 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    font-size: 1.4vmax;
+    font-family: 'GFS Didot', serif;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: orange;
+    -webkit-text-stroke-width: 1.2px;
+}
+
+#nav1 h1{
+      color: white;
+}
+
+#nav1:hover {
+      border: 1px solid white;
+}
+
+#nav1 img{
+      height: 75px;
+      width: 75px;
+      border-radius: 50%;
+      margin: 10px 15px;
+}
+
+#nav2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 50%;
+      height: 100%;
+      font-family: gilroy;
+      position: relative;
+}
+
+#nav2:hover {
+      border: 1px solid white;
+}
+  
+#nav2 #menu i ul {
+      display: none;
+      position: absolute;
+      top: 50%;
+      right: 3%;
+      list-style: none;
+      width: 12.5vw;
+      height: 150px;
+      margin: 15px;
+      background-color: #331D2C;
+      font-family: gilroy;
+      border-radius: 5%;
+      text-align: center;
+}
+
+#menu i ul li{
+      margin-right: 29px;
+      margin-top: 6px;
+}
+  
+#menu i ul li:hover{
+      background-color: #000;
+}
+  
+#mobile{
+      display: none;
+}
+  
+  
+#nav2 a {
+      text-decoration: none;
+      color: white;
+}
+  
+h4 {
+      cursor: pointer;
+      font-size: 15px;
+}
+
+hr {
+      border: 1px #ffffff;
+      border-style: dotted;
+      width: 100vw;
+      margin-top: 0;
+}
+
+
+#carouselExampleIndicators {
+      width: 50vw;
+      height: 45vh;
+      position: absolute;
+      top: 51%;
+      left: 25%;
+}
+
+
+.container img{
+      width: 50vw;
+      height: 45vh;
+}
+
+p {
+      font-family: gilroy;
+      font-size: 13px;
+      color: #fff;
+}
+
+#title-text h1 {
+
+      -webkit-text-stroke-color: rgb(179, 255, 0);
+      -webkit-text-stroke-width: 2px;
+}
+
+#title-text {
+      height: 20vw;
+      padding:5px 30px;
+      padding-bottom: 0px;
+}
+
+#page2 {
+      width: 100%;
+      height: 250%;
+      margin-top: 0px;
+}
+
+#main-text {
+      padding: 40px;
+      width: 100%;
+      height: 250%;
+      font-size: 1vw;
+      text-align: left;
+}
+
+#trimurti {
+      color:rgb(179, 255, 0);
+}
+
+span {
+      color:rgb(179, 255, 0);
+}
+
+#navratri {
+      color: rgba(255, 0, 0, 0.719);
+}
+
+.navratri {
+      height: 40vh;
+      width: 40vw;
+      border-radius: 50%;
+      float: left;
+      margin: 25px;
+}
+
+#main-text {
+      position: relative;
+}
+
+#navr {
+      position: relative;
+}
+
+#rishi1 > img {
+      height: 40vh;
+      width: 40vw;
+      border-radius: 50%;
+      float: left;
+      margin: 20px;
+}
+
+#rishi1 {
+      margin-bottom: 20px;
+}
+
+#rishi {
+      color:rgb(179, 255, 0);
+      font-size: 2vw;
+}
+
+#divy {
+   width: 100%;
+   text-align: center;
+   font-size: 2.5vw;
+}
+
+#last {
+      color: white;
+      font-size: 3vw;
+
+}
+
+#div {
+      height: 10%;
+      width: 100%;
+}
+
+@media (min-width:450px) and (max-width: 600px) {
+
+      #title-text p{
+            font-size: 10px;
+      }
+
+      #carouselExampleIndicators {
+            top: 51.5%;
+      }
+
+      #nav2 {
+            justify-content: flex-end;
+      }
+
+      #nav2 h4{
+            display: none;
+      }
+      #mobile {
+            display: block;
+           margin-right: 20px;
+
+      }
+
+      #mobile li:hover{
+            background-color: aqua;
+      }
+
+      #mobile ul{
+      list-style: none;
+        display: none;
+        color: white;
+        position: absolute;
+        width: 120px;
+        text-align: right;
+        height: 240px;
+        top: 100%;
+        background-color: #331D2C;
+        font-family: gilroy;
+        right: 35%;
+        border-radius: 5%;
+        cursor: pointer;
+      }
+
+
+
+}
+
+@media (min-width: 390px) and (max-width: 450px) {
+      #title-text p{
+            font-size: 8px;
+      }
+
+      #carouselExampleIndicators {
+            top: 51.5%;
+      }
+
+      #rishi {
+            font-size: 4vw;
+      }
+
+      #nav2 {
+            justify-content: flex-end;
+      }
+
+      #nav2 h4{
+            display: none;
+      }
+      #mobile {
+            display: block;
+           margin-right: 20px;
+
+      }
+
+      #mobile li:hover{
+            background-color: aqua;
+      }
+
+      #mobile ul{
+      list-style: none;
+        display: none;
+        color: white;
+        position: absolute;
+        width: 120px;
+        text-align: right;
+        height: 240px;
+        top: 100%;
+        background-color: #331D2C;
+        font-family: gilroy;
+        right: 25%;
+        border-radius: 5%;
+      }
+
+}
+@media (max-width: 389.99999px) {
+      #carouselExampleIndicators {
+            top: 52.5%;
+      }
+
+      #nav1 img{
+            height: 60px;
+            width: 60px;
+      }
+
+      #title-text p{
+            font-size: 7px;
+      }
+      
+      #nav2 {
+            justify-content: flex-end;
+      }
+
+      #nav2 h4{
+            display: none;
+      }
+      #mobile {
+            display: block;
+           margin-right: 20px;
+
+      }
+
+      #mobile li:hover{
+            background-color: aqua;
+      }
+
+      #mobile ul{
+      list-style: none;
+        display: none;
+        color: white;
+        position: absolute;
+        width: 120px;
+        text-align: right;
+        height: 240px;
+        top: 100%;
+        background-color: #331D2C;
+        font-family: gilroy;
+        right: 25%;
+        border-radius: 5%;
+      }
+
+}
+
+@media (max-height: 600px) {
+
+      #title-text {
+            height: 50vh;
+            font-size: 6.5px;
+      }
+
+      #carouselExampleIndicators {
+            height: 50vh;
+            top: 60%;
+
+      }
+}
+
+
+
+
+  
+
