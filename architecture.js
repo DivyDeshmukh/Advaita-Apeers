@@ -34,7 +34,7 @@ document.querySelector("#mobile").addEventListener("click", function() {
 
 
 document.querySelector("#mobile #about").addEventListener("click", function() {
-    alert("Hey there! Divy this side, please check out this amazing landing page designed by me. It showcase the ancient culture and wisdom of our Bharat. There are several features i want you to take into consideration in menu like the knowledge section, architecture section, foods, and you can also play games in the games section. Overall, I have designed this project for practice and uploaded it on my github profile. You can provide your valuable feedback by email. Have a play around with different features of the site. Please read the article on knowledge section. THANKYOU FOR VISITING...");
+    alert("Hey there! Divy this side, please check out this amazing landing page designed by me. It showcase the ancient culture and wisdom of our Bharat. There are several features i want you to take into consideration in menu like the knowledge section, architecture section, foods, and you can also play games in the games section. Have a play around with different features of the site. Please read the article on knowledge section. THANKYOU FOR VISITING...");
   });
   
   document.querySelector("#mobile #contact").addEventListener("click", function() {
@@ -42,7 +42,7 @@ document.querySelector("#mobile #about").addEventListener("click", function() {
   });
   
   document.getElementsByTagName("h4")[1].addEventListener("click", function() {
-    alert("Hey there! Divy this side, please check out this amazing landing page designed by me. It showcase the ancient culture and wisdom of our Bharat.  Please read the article on knowledge section. There are several features i want you to take into consideration in menu like the knowledge section, architecture section, foods, and you can also play games in the games section. Overall, I have designed this project for practice and uploaded it on my github profile. You can provide your valuable feedback by email. Have a play around with different features of the site. THANKYOU FOR VISITING...");
+    alert("Hey there! Divy this side, please check out this amazing landing page designed by me. It showcase the ancient culture and wisdom of our Bharat.  Please read the article on knowledge section. There are several features i want you to take into consideration in menu like the knowledge section, architecture section, foods, and you can also play games in the games section. Have a play around with different features of the site. THANKYOU FOR VISITING...");
   });
   
   document.getElementsByTagName("h4")[2].addEventListener("click", function() {
